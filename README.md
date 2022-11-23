@@ -1,20 +1,20 @@
-## Linux kernel module tracing and iteraction by netlink
+# Linux kernel module tracing and iteraction by netlink
 
 A simple example for show how to use netlink for user space <=> kernel IPC
 also it show how trace kernel module activity to remote syslog server.
 It can pass UDP messages directly to remote SYSLOG daemon
 
-# Preparation for kernel development
+## Preparation for kernel development
 
 Run: 
 
 $./before.sh
 
-# Compilation
+## Compilation
 
 $make
 
-# Test
+## Test
 
 $make test
 
